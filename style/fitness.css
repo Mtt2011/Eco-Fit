@@ -1,0 +1,267 @@
+/* start of PhoneUsage page */
+
+#pu-firstSection{
+    height: 100vh;
+    margin-top: 10vh;
+    background-color: #E8F5E9;
+}
+
+#pu-firstSection-innerRow{
+    height: 100%;
+}
+
+.pu-firstSec-cols{
+    height: 100%;
+}
+
+#howIt, #affects{
+    font-size: 4rem;
+    color: #1B5E20;
+}
+
+#pu-firstSec-innerRow > .col-lg-10{
+    padding-top: 12vh;
+}
+
+#line{
+    width: 7vw;
+    border: 3px solid #4CAF50;
+}
+
+#pu-firstSec-text{
+    font-size: large;
+    color: #2E7D32;
+}
+
+#pu-firstSec-text > span{
+    background-color: #2E7D32;
+    color: #E8F5E9;
+    padding: 2px;
+}
+
+#pu-firstSec-imgRow{
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#pu-first-img-con{
+    height: 50vh;
+    background-image: url(../images/exercising.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#pu-first-img-con::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -3vh;
+    left: 65%;
+    background-color: #4CAF50;
+    z-index: -1;
+}
+
+/* end of pu first sec */
+
+#pu-secondSection{
+    background-color: #E8F5E9;
+}
+
+#tipsAndGuides{
+    border-top: 1px solid #2f5b3e;
+    color: #2f5b3e;
+}
+
+#consistency-text-con{
+    padding-left: 5vw;
+    margin-bottom: 4vh;
+    color: #2f5b3e;
+}
+
+#consistency-img-con{
+    height: 40vh;
+    background-image: url(../images/consistency.jpg);
+    background-size: cover;
+    box-shadow: 20px 20px #2f5b3e;
+}
+
+#warm-up-title, #in-park, #afterWarmUp, #workOuts{
+    color: #2f5b3e;
+}
+
+#in-park > span{
+    padding-bottom: 1vh;
+    border-bottom: 2px solid #2f5b3e;
+}
+
+#workOuts > span{
+    padding-bottom: 1vh;
+    border-bottom: 2px solid #2f5b3e;
+}
+
+.exercise-titles{
+    color: #2f5b3e;
+    margin-bottom: 3vh;
+}
+
+#pu-secondSection-innerRowTwo-innerRow > .col-lg-7 > img{
+    width: 100%;
+}
+
+#pu-secondSection-innerRowThree{
+    display: flex;
+    justify-content: center;
+}
+
+.exercise-con{
+    height: 45vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.exercise-text-con{
+    color: #2f5b3e;
+}
+
+#benchDips-img{
+    background-image: url(../images/benchDip.gif);
+    background-size: cover;
+    height: 40vh;
+    background-position-y: center;
+}
+
+#benchPushUps-img{
+    background-image: url(../images/benchPushUp.gif);
+    background-size: cover;
+    height: 45vh;
+    background-repeat: no-repeat;
+}
+
+#plank-img{
+    background-image: url(../images/plankInAPark.webp);
+    height: 45vh;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#stairs-img{
+    background-image: url(../images//workingOutWithStairs.jpg);
+    background-size: cover;
+    height: 45vh;
+}
+
+/* end of pu second sec */
+
+@media (max-width: 991px){
+    #who, #we, #are{
+        text-align: center !important;
+    }
+
+    /* #footer{
+        margin-top: 100vh;
+    } */
+
+    .small-img-box::before{
+        top: 0;
+        left: 0;
+    }
+
+    #names-section{
+        padding-top: 200vh;
+        margin-top: 80vh;
+    }
+
+    #person-info-box{
+        margin-left: 12.5vw;
+    }
+
+    #img-col{
+        background-position-y: top;
+        height: 80vh;
+        background-size: 100%;
+    }
+
+    #first-abt-section{
+        background: linear-gradient(180deg, #e2e2e2, #c9d6ff);
+    }
+
+    #pu-firstSection {
+        height: auto;
+        padding-top: 18vh;
+        text-align: center;
+    }
+
+    #howIt, #affects {
+        font-size: 2.5rem;
+    }
+
+    #pu-firstSec-innerRow > .col-lg-10 {
+        padding-top: 4vh;
+    }
+
+    #pu-first-img-con {
+        height: 30vh;
+        margin-top: 3vh;
+    }
+
+    #pu-first-img-con::before {
+        display: none;
+    }
+
+    #consistency-text-con {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    #consistency-img-con {
+        height: 30vh;
+        box-shadow: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #warm-up-title {
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+
+    .exercise-titles {
+        font-size: 1.2rem;
+    }
+
+    #pu-secondSection-innerRowTwo-innerRow img {
+        width: 85%;
+    }
+
+    .exercise-con {
+        height: auto;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .exercise-img-con {
+        height: 30vh !important;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .exercise-text-con {
+        padding: 20px !important;
+        text-align: center;
+    }
+
+    body{
+        padding-left: 5vw !important;
+    }
+
+    #line{
+        display: none;
+    }
+
+    .exercise-img-con > video{
+        margin-left: 0px !important;
+    }
+}

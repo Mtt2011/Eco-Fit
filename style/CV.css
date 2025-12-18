@@ -1,0 +1,103 @@
+#cv-banner-con {
+    height: 100vh;
+    background-image: url('../images/grass16.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#cv-banner-con::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+#int-vids-con video {
+    margin-top: 5vh;
+}
+
+#int-vids-con {
+    background-color: bisque;
+}
+
+#cv-banner-sec {
+    margin-top: 10vh;
+}
+
+#cv-banner-title {
+    margin-top: 10vh;
+    padding-left: 4vw;
+    color: #FFD700;
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    animation: fadeInUp 1s ease forwards;
+}
+
+#cv-banner-text {
+    margin-left: 4vw;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 600px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    animation: fadeInUp 1.2s ease forwards;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.cv-banner-topTwo-imgs {
+    height: 20vh;
+    background-image: url('../images/grass41.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#cv-banner-topTwo-imgTwo {
+    background-image: url('../images/10_360.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+    #cv-banner-title,
+    #cv-banner-text {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #cv-banner-sec {
+        display: flex;
+        justify-content: center;
+    }
+
+    #cv-banner-topTwo-imgTwo {
+        margin-top: 2vh;
+    }
+
+    #cv-banner-img-con {
+        display: flex;
+        justify-content: center;
+    }
+}
