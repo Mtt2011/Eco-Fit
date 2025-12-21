@@ -169,7 +169,7 @@ section h3 {
 #h-banner-section {
     margin-top: 10vh;
     height: 100vh;
-    background-image: url(../images/grass10.jpg);
+    background-image: url(../imagesTwo/grass10.jpg);
     background-size: cover;
 }
 
@@ -186,4 +186,5 @@ section h3 {
 
 #hero-sec-logo {
     position: relative;
+
 }
