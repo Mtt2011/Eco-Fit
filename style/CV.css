@@ -1,6 +1,6 @@
 #cv-banner-con {
     height: 100vh;
-    background-image: url('../images/grass16.jpg');
+    background-image: url('../imagesTwo/grass16.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@
 
 .cv-banner-topTwo-imgs {
     height: 20vh;
-    background-image: url('../images/grass41.jpg');
+    background-image: url('../imagesTwo/grass41.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -100,4 +100,5 @@
         display: flex;
         justify-content: center;
     }
+
 }
