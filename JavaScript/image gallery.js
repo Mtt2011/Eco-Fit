@@ -66,7 +66,7 @@ const galleryData = [
     { type: "video", src: "../videos/parkEquipmentExercise3.mp4", title: "Monkey!", description: "Our member Hein Htet trying monkey bars for the first time!" },
     { type: "image", src: "../imagesTwo/grass43.jpg", title: "East Dragon!", description: "A statue of dragon from dragron roudn area." },
     { type: "image", src: "../imagesTwo/grass44.jpg", title: "East dragon(side)", description: "A statue of dragon from dragron roudn area." },
-    { type: "video", src: "../videos/parkEquipmentExercise4.mp4", title: "GO Go!", description: "Our member Win myat trying the cycling exercise equipment in the park." },
+    { type: "video", src: "../videos/parkequipmentExercise4.mp4", title: "GO Go!", description: "Our member Win myat trying the cycling exercise equipment in the park." },
     { type: "image", src: "../imagesTwo/grass45.jpg", title: "Night Lake", description: "Shin Upagutta lake in Theingottra park. (Early in the morning view) taken by Hein Htet." },
     { type: "image", src: "../imagesTwo/grass46.jpg", title: "Click me!", description: "Random Picture our member hein htet took." },
     { type: "image", src: "../imagesTwo/grass47.jpg", title: "Meaning of BEAUTIFUL", description: "Pathway in dragon roudn park. Early in the morning view. taken by Hein Htet. 😎" },
@@ -76,7 +76,7 @@ const galleryData = [
     { type: "image", src: "../imagesTwo/grass51.jpg", title: "Flower Circle", description: "Another perspective of the area of land with flower circles in the morning." },
     { type: "image", src: "../imagesTwo/grass52.jpg", title: "Dragon Round Park", description: "The most eye-catching feature in Dragon Round Park." },
     { type: "image", src: "../imagesTwo/grass53.jpg", title: "Dragon Round Park", description: "Another perspective of Dragon Round Park from another area." },
-    { type: "video", src: "../videos/parkEquipmentExercise5.mp4", title: "Treadmill Equipment", description: "Footage of Hein Htet's brother using the treadmill equpiment." },
+    { type: "video", src: "../videos/ParkEquipmentExercise5.mp4", title: "Treadmill Equipment", description: "Footage of Hein Htet's brother using the treadmill equpiment." },
     { type: "image", src: "../imagesTwo/grass54.jpg", title: "Dragon of clouds", description: "Clody weather picture of a area in Dragon round park. Taken by Hein Htet" },
     { type: "image", src: "../imagesTwo/grass55.jpg", title: "Rules!", description: "Dragon roudn park rules!" },
     { type: "image", src: "../imagesTwo/grass56.jpg", title: "A fallen tree", description: "A very old tree that have great memories with our member Hein Htet." },
@@ -155,3 +155,4 @@ searchInput.addEventListener("input", () => {
     );
     displayGallery(filtered);
 });
+
